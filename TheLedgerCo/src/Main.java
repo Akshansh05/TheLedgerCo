@@ -13,7 +13,7 @@ public class Main {
 		} else {
 			Scanner sc = new Scanner(System.in);
 
-			System.out.println("Please Enter the full File Path. Example -> /home/akshanshohm/eclipse-workspace/Ledger/src/test.txt");
+			System.out.println("Please Enter the full File Path. Example ->/home/akshanshohm/eclipse-workspace/TheLedgerCo/src/test.txt");
 
 			inputParser.parseFileInput(sc.nextLine());
 		}
